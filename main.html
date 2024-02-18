@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunnyAir - Your Summer Companion</title>
+    <style>
+        /* Basic CSS styles */
+        body {
+            font-family: monospace, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fefbdc; /* Light blue background */
+            color: #333; /* Dark text color */
+        }
+
+        header {
+            background-color: #56b5c5; /* Blue header background */
+            color: #fff; /* White text color */
+            padding: 10px 0; /* Decreased padding */
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 24px; /* Decreased font size */
+            margin: 0; /* Remove default margin */
+        }
+
+        nav {
+            background-color: #0077B5; /* Dark blue navigation background */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 30px;
+            background-color: #fefbdc; /* White background for main content */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow */
+            margin-bottom: 60px; /* Adjusted to accommodate the footer */
+        }
+
+        footer {
+            background-color: #0099CC; /* Blue footer background */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            position: relative; /* Changed to relative positioning */
+        }
+
+        /* Style for the header image */
+        header img {
+            max-width: 100%; /* Adjust the max-width to make the banner smaller */
+            height: auto;
+        }
+
+        /* Style for the reference buttons */
+        .reference-buttons {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            margin-top: 20px;
+        }
+
+        .reference-button {
+            background-color: #0077B5;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .reference-button:hover {
+            background-color: #005580;
+        }
+
+        /* Style for the skin type image */
+        .skin-type-image {
+            max-width: 400px; /* Adjust the maximum width to make the image smaller */
+            width: 100%; /* Ensure the image fills its container */
+            height: auto;
+            margin-bottom: 20px; /* Add some bottom margin */
+            display: block; /* Make sure the image is displayed as a block element */
+            margin-left: 0; /* Align the image to the left */
+        }
+
+        /* Style for the main button image */
+        .main-button-image {
+            max-width: 1000px; /* Adjusted width */
+            display: block; /* Ensure the image is displayed as a block element */
+            margin: 0 auto; /* Center align the image */
+        }
+
+        .thick-line {
+            border: none;
+            height: 5px; /* Adjust the height for the desired thickness */
+            background-color: #FD9B5C; /* Color of the line */
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .skin-type-image,
+        .table-image {
+            max-width: 45%;
+            height: auto;
+            max-height: 400px; /* Set a maximum height to prevent excessive stretching */
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="banner.png" alt="banner" />
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="main.html" target="_blank">Main</a>
+        <a href="tips.html" target="_blank">Tips</a>
+        <a href="contact.html" target="_blank">Contact</a>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="image-container">
+                <img src="skintype.png" alt="skin type" class="skin-type-image" />
+                <img src="table.png" alt="table" class="table-image" />
+            </div>
+    
+            <hr class="thick-line" />
+    
+            <img src="mainbutton.png" alt="main button type" class="main-button-image" />
+    
+            <!-- Reference buttons -->
+            <div class="reference-buttons">
+                <a href="low1.html" class="reference-button">Low UV and Skin Type 1</a>
+                <a href="low2.html" class="reference-button">Low UV and Skin Type 2</a>
+                <a href="low3.html" class="reference-button">Low UV and Skin Type 3</a>
+                <a href="mod1.html" class="reference-button">Moderate UV and Skin Type 1</a>
+                <a href="mod2.html" class="reference-button">Moderate UV and Skin Type 2</a>
+                <a href="mod3.html" class="reference-button">Moderate UV and Skin Type 3</a>
+                <a href="high1.html" class="reference-button">High UV and Skin Type 1</a>
+                <a href="high2.html" class="reference-button">High UV and Skin Type 2</a>
+                <a href="high3.html" class="reference-button">High UV and Skin Type 3</a>
+            </div>
+        </div>
+    </main>
+    
